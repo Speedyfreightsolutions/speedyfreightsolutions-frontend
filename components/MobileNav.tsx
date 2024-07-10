@@ -16,7 +16,7 @@ const MobileNav = () => {
 
   const pathname = usePathname();
   return (
-    <section className='block md:hidden w-full max-w-[265px]'>
+    <section className='block md:hidden w-full max-w-[260px]'>
       {/* Hamburger menu */}
       <Sheet>
         <SheetTrigger asChild>
@@ -30,15 +30,6 @@ const MobileNav = () => {
         </SheetTrigger>
 
         <SheetContent side='right' className='border-none bg-dark-1'>
-          {/* Speedy Freight's logo */}
-          <Link href='/' className='flex items-center gap-2'>
-            <Image
-              src='/images/logo.png'
-              alt='Speedy Freight'
-              width={70}
-              height={70}
-            />
-          </Link>
           <div className='flex h-[calc(100vh-70px)] relative flex-col overflow-y-auto justify-between'>
             <SheetClose asChild>
               <section className='flex h-full absolute right-0 flex-col gap-5 pt-16 text-white'>

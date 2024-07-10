@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Speedy Freight Solutions',
-  description: 'A transport company based in Australia',
+  description: 'A transport & delivery company based in Australia',
 };
 
 export default function RootLayout({

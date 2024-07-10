@@ -32,10 +32,9 @@ const Navbar = () => {
           {navbarLinks.map((link, index) => {
             const isActive = pathname === link.route;
             return (
-              <li className='flex'>
+              <li className='flex' key={index}>
                 <Link
                   href={link.route}
-                  key={index}
                   className={cn(
                     'flex rounded items-center px-6 py-2  w-max text-white',
                     {
