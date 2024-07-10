@@ -33,6 +33,9 @@ const config = {
           2: '#ECF0FF',
           3: '#F5FCFF',
         },
+        white: {
+          1: '#ffffff',
+        },
       },
     },
   },
