@@ -13,7 +13,9 @@ const Navbar = () => {
           width={30}
           height={30}
         />
-        <p className='text-[24px] font-bold text-white max-sm:hidden'>Yoom</p>
+        <p className='text-[24px] font-bold text-white max-sm:hidden'>
+          SPEEDY FREIGHT
+        </p>
       </Link>
 
       <div className='flex-between gap-5'>
