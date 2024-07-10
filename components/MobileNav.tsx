@@ -24,18 +24,18 @@ const MobileNav = () => {
             alt='Hamburger menu'
             className='cursor-pointer sm:hidden'
           />
-        </SheetTrigger>
-
-        <SheetContent side='left' className='border-none bg-dark-1'>
           <Link href='/' className='flex items-center gap-2'>
             <Image
               src='/images/logo.png'
               alt='Speedy Freight'
-              className='max-sm:size-10 '
+              className='max-sm:size-16'
               width={25}
               height={25}
             />
           </Link>
+        </SheetTrigger>
+
+        <SheetContent side='left' className='border-none bg-dark-1'>
           <div className='flex h-[calc(100vh-70px)] flex-col overflow-y-auto justify-between'>
             <SheetClose asChild>
               <section className='flex h-full flex-col gap-5 pt-16 text-white'>
