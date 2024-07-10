@@ -15,9 +15,7 @@ export default function StaticLayout({
 }>) {
   return (
     <>
-      <Navbar />
-
-      <div className='translate-y-[70px] bg-blue-300'>{children}</div>
+     
     </>
   );
 }
