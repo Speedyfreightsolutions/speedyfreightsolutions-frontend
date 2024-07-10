@@ -8,10 +8,14 @@ import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 
 const Navbar = () => {
+  // Initialize the usePathname hook
   const pathname = usePathname();
+
   return (
     <>
+      {/* Nav styles */}
       <nav className='flex justify-between items-center fixed h-[70px] z-40 w-full bg-dark-1 px-6 py-4 lg:px-10'>
+        {/* Logo */}
         <Link href='/' className='flex items-center'>
           <Image
             src='/images/logo.png'
@@ -22,7 +26,9 @@ const Navbar = () => {
           />
         </Link>
 
+        {/* Navbar Links */}
         <ul className='hidden gap-1 text-white md:flex'>
+          {/* Loop through the Links array from the Constant file */}
           {navbarLinks.map((link, index) => {
             const isActive = pathname === link.route;
             return (
@@ -43,7 +49,9 @@ const Navbar = () => {
             );
           })}
         </ul>
+
         <div className='flex md:hidden justify-between gap-5'>
+          {/* Embed Mobile Navigation */}
           <MobileNav />
         </div>
       </nav>

@@ -12,9 +12,12 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const MobileNav = () => {
+  // Initialize the usePathname hook
+
   const pathname = usePathname();
   return (
     <section className='block md:hidden w-full max-w-[265px]'>
+      {/* Hamburger menu */}
       <Sheet>
         <SheetTrigger asChild>
           <Image
@@ -26,6 +29,7 @@ const MobileNav = () => {
           />
         </SheetTrigger>
 
+        {/* Speedy Freight's logo */}
         <SheetContent side='right' className='border-none bg-dark-1'>
           <Link href='/' className='flex items-center gap-2'>
             <Image
