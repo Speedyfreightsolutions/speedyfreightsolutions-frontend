@@ -35,6 +35,8 @@ const config = {
         },
         white: {
           1: '#ffffff',
+          2: '#f4f4f4',
+          3: '#eee',
         },
       },
     },
