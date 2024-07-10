@@ -25,12 +25,12 @@ const MobileNav = () => {
             width={32}
             height={32}
             alt='Hamburger menu'
-            className='cursor-pointer md:hidden'
+            className='cursor-pointer text-dark-1 md:hidden'
           />
         </SheetTrigger>
 
-        {/* Speedy Freight's logo */}
         <SheetContent side='right' className='border-none bg-dark-1'>
+          {/* Speedy Freight's logo */}
           <Link href='/' className='flex items-center gap-2'>
             <Image
               src='/images/logo.png'
@@ -50,7 +50,7 @@ const MobileNav = () => {
                         href={link.route}
                         key={index}
                         className={cn(
-                          'flex gap-4 rounded items-center justify-end p-4 text-right w-full max-w-60 text-white',
+                          'flex gap-4 rounded items-center justify-end p-4 text-right w-full max-w-60 text-white-1',
                           {
                             'bg-blue-1': isActive,
                           }

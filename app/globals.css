@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --shadow: 2px 4px 10px rgba(255, 255, 233, 0.7);
+  --shadow: 2px 4px 25px rgba(175, 175, 166, 0.7);
 }
 
 nav {
