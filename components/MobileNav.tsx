@@ -14,7 +14,7 @@ import { usePathname } from 'next/navigation';
 const MobileNav = () => {
   const pathname = usePathname();
   return (
-    <section className='w-full max-w-[265px]'>
+    <section className='block md:hidden w-full max-w-[265px]'>
       <Sheet>
         <SheetTrigger asChild>
           <Image
@@ -31,7 +31,6 @@ const MobileNav = () => {
             <Image
               src='/images/logo.png'
               alt='Speedy Freight'
-              //   className='max-sm:size-16 '
               width={70}
               height={70}
             />
