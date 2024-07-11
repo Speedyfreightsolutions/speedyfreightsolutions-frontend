@@ -9,3 +9,7 @@
 nav {
   box-shadow: var(--shadow);
 }
+
+#home-hero {
+  background-image: url('/public/images/a.jpg');
+}

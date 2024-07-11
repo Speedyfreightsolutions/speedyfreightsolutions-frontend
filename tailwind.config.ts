@@ -39,6 +39,9 @@ const config = {
           3: '#eee',
         },
       },
+      backgroundImage: {
+        hero: '',
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],

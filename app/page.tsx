@@ -1,11 +1,9 @@
-
+import Hero from '@/components/Hero';
 
 export default function Home() {
   return (
     <>
-   
-
-      <h1>Hello, Speedy </h1>
+      <Hero title='Hello' subtitle='Hello, this is a subtitle' />
     </>
   );
 }

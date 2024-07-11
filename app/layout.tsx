@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <Navbar />
-        <div className='translate-y-[70px] bg-blue-400'>{children}</div>
+        <div className='translate-y-[70px]'>{children}</div>
       </body>
     </html>
   );
