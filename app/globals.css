@@ -10,6 +10,8 @@ nav {
   box-shadow: var(--shadow);
 }
 
-#home-hero {
-  background-image: url('/public/images/a.jpg');
+
+#home-hero{
+  background: 
+  url('https://ik.imagekit.io/vasl2zgr3d/1.png?updatedAt=1720750422064') no-repeat center center/cover;
 }
