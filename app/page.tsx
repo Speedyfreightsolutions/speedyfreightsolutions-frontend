@@ -22,7 +22,7 @@ export default function Home() {
           </h1>
         </div>
 
-        <div className='w-[95%] lg:w-[80%] md:leading-loose mx-auto leading-9 text-lg md:text-xl'>
+        <div className='w-[95%] lg:w-[80%] text-left md:text-justify md:leading-10 mx-auto leading-7 text-lg md:text-xl'>
           <p>
             Speedy Freight is a leading transportation and delivery company
             based in Australia, renowned for its reliable and efficient
