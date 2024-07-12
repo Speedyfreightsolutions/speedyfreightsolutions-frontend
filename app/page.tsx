@@ -15,14 +15,14 @@ export default function Home() {
 
       {/* ABOUT SPEEDY FREIGHT */}
       <section className='my-16'>
-        <div className='flex flex-col items-center justofy-center w-full'>
+        <div className='flex flex-col items-center justify-center w-full'>
           <h5 className='text-blue-1 font-bold uppercase'>About</h5>
           <h1 className='font-bold uppercase text-2xl md:4xl mb-6 w-full border-b-2 border-[#ccc] text-center py-3'>
             Speedy Freight
           </h1>
         </div>
 
-        <div className='w-[95%] lg:w-[80%] md:leading-loose mx-auto text-justify leading-9 text-lg md:text-xl'>
+        <div className='w-[95%] lg:w-[80%] md:leading-loose mx-auto leading-9 text-lg md:text-xl'>
           <p>
             Speedy Freight is a leading transportation and delivery company
             based in Australia, renowned for its reliable and efficient
@@ -40,7 +40,7 @@ export default function Home() {
 
       {/* UNIQUE FEATURES */}
       <main className='w-full py-6'>
-        <div className='w-[95%] lg:w-[80%] mx-auto flex  flex-col-reverse gap-6 sm:flex-row justify-between items-center mb-5'>
+        <div className='w-[95%] lg:w-[80%] mx-auto flex  flex-col-reverse gap-6 sm:flex-row justify-between items-center mb-3'>
           <div className='w-full text-center sm:text-left sm:w-2/3'>
             <h2 className='font-bold text-2xl mb-3 md:text-4xl text-blue-1 uppercase'>
               Rapid Same day Delivery
@@ -63,7 +63,7 @@ export default function Home() {
           </div>
         </div>
         {/* FEATURE TWO */}
-        <div className='w-[95%] lg:w-[80%] mx-auto flex flex-col-reverse sm:flex-row-reverse gap-6 justify-between items-center mb-5'>
+        <div className='w-[95%] lg:w-[80%] mx-auto flex flex-col-reverse sm:flex-row-reverse gap-6 justify-between items-center mb-3'>
           <div className='w-full text-center sm:text-left sm:w-2/3'>
             <h2 className='font-bold text-2xl md:text-4xl mb-3 text-blue-1 uppercase'>
               Nationwide Coverage
@@ -115,7 +115,7 @@ export default function Home() {
       {/* HERO BACKGROUND */}
       <section
         id='home-hero'
-        className='flex flex-col text-center  justify-center items-center px-2 w-full h-[500px]  my-6'
+        className='flex flex-col text-center  justify-center items-center px-2 w-full h-[500px]  mt-6'
       >
         <div></div>
 
